@@ -20,3 +20,18 @@ input:invalid, textarea:invalid, select:invalid {
 [x-cloak] {
     display: none;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
+
+/* Pastikan home section visible */
+#home {
+  scroll-margin-top: 0;
+}
