@@ -5,5 +5,6 @@
     
     @isset($slot)
         {{ $slot }}
+        <h5>bisumllah</h5>
     @endisset
 @endsection
