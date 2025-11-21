@@ -6,11 +6,11 @@
             </div>
             
             <!-- Desktop Menu -->
-            <div class="hidden md:flex space-x-8">
-                <a href="#home" class="text-gray-600 hover:text-blue-600 transition">Home</a>
-                <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
-                <a href="#projects"  class="text-gray-600 hover:text-blue-600 transition">Projects</a>
-                <a href="#contact"  class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+            <div class="hidden md:flex space-x-8 font-inter">
+                <a href="#home" class="relative underline-anim text-gray-600 hover:text-gray-900  hover:decoration-4 transition transform hover:-rotate-2">Home</a>
+                <a href="#about" class=" relative underline-anim text-gray-600 hover:text-gray-900  hover:decoration-4 transition transform hover:-rotate-2">About</a>
+                <a href="#projects"  class=" relative underline-anim text-gray-600 hover:text-gray-900  hover:decoration-4 transition transform hover:-rotate-2">Projects</a>
+                <a href="#contact"  class=" relative underline-anim text-gray-600 hover:text-gray-900  hover:decoration-4 transition transform hover:-rotate-2">Contact</a>
             </div>
 
             <!-- Mobile Menu Button -->

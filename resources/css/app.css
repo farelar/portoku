@@ -1,6 +1,7 @@
 /* Import Tailwind CSS framework */
 @import 'tailwindcss';
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 /* Custom theme configuration with system font stack */
 @theme {
     --font-sans: 'Inter var', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
@@ -35,3 +36,20 @@ html {
 #home {
   scroll-margin-top: 0;
 }
+
+.underline-anim::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        height: 6px;
+        width: 0;
+        background-color: #0db8f8;
+        transition: width 0.3s ease;
+      --tw-skew-x: skewX(12deg);
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+}
+
+    .underline-anim:hover::after {
+        width: 100%;
+    }
