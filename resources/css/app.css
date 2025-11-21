@@ -1,7 +1,6 @@
 /* Import Tailwind CSS framework */
 @import 'tailwindcss';
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 /* Custom theme configuration with system font stack */
 @theme {
     --font-sans: 'Inter var', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
