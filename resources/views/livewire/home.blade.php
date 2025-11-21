@@ -28,9 +28,13 @@
 
            
             <div class="space-x-4">
-                <button class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-lg">
-                    Lihat Projects
-                </button>
+                <a href="#projects">
+
+                    <button class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-lg">
+                        
+                            Lihat Projects
+                    </button>
+                </a>
                 <button class="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition">
                     Download CV
                 </button>
@@ -47,7 +51,7 @@
             <div>
                 <h3 class="text-2xl font-semibold mb-4">Cerita Singkat</h3>
                 <p class="text-gray-600 leading-relaxed mb-6">
-                    Lulus, langsung terjun ke dunia profesional! Saya senang bisa bertumbuh sebagai Junior Developer di CV. Cipta Graha Software, Pekalongan. Di sini, setiap baris kode adalah kesempatan untuk belajar hal baru. Yuk, lihat proyek-proyek saya di bawah ini dan mari kita ngobrol soal technologi!    
+                    Halo! Saya Farel Ar-Rizieq, seorang pengembang web yang bersemangat dengan pengalaman dalam membangun aplikasi web yang responsif dan fungsional. Saya memiliki keahlian dalam PHP, Laravel, Livewire, Alpine.js, dan Tailwind CSS. Saya seorang fresh graduate dari SMKN2 Pekalongan, dan sekarang bekerja sebgai junior developer di CV. Cipta Graha Software sekaligus melanjutkan studi di Institut Widya Pratama
                 </p>
                 
                 <h3 class="text-2xl font-semibold mb-6">My Skill</h3>
@@ -120,9 +124,17 @@
                 <h3 class="text-2xl font-semibold mb-6">Experience</h3>
                 <div class="space-y-4">
                     <div class="border-l-4 border-blue-500 pl-4">
-                        <h4 class="font-semibold text-lg">Junior Developer</h4>
+                        <h4 class="font-semibold text-lg">Junior Web Developer</h4>
                         <p class="text-gray-600">CV. Cipta Graha Software</p>
-                        <p class="text-gray-500 text-sm">2024 - Present</p>
+                        <p class="text-gray-500 text-sm">2025 - Present</p>
+                    </div>
+                    <!-- Tambah experience lain kalo ada -->
+                </div>
+                <div class="space-y-4 mt-7">
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h4 class="font-semibold text-lg">Information Systems Student</h4>
+                        <p class="text-gray-600">Institut Widya Pratama</p>
+                        <p class="text-gray-500 text-sm">2025 - Present</p>
                     </div>
                     <!-- Tambah experience lain kalo ada -->
                 </div>
@@ -133,42 +145,99 @@
 
     <!-- Projects Section -->
     <section id="projects" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Projects Saya</h2>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Project Card -->
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
-                    <img src="/images/project1.jpg" alt="Project" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Nama Project</h3>
-                        <p class="text-gray-600 mb-4">Deskripsi singkat tentang project ini.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-blue-600 font-medium">Lihat Detail</span>
-                            <span class="text-gray-400">2023</span>
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Projects Saya</h2>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Card 1 -->
+            <div class="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div class="relative overflow-hidden">
+                    <img src="{{asset('assets/nirmala.png')}}" alt="Project" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end">
+                        <div class="p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="flex space-x-2">
+                                <span class="bg-red-500/80 text-xs px-2 py-1 rounded">Laravel</span>
+                                <span class="bg-yellow-500/80 text-xs px-2 py-1 rounded">Mysql</span>
+                                <span class="bg-blue-500/80 text-xs px-2 py-1 rounded">Bootsrap</span>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
-                
-                <!-- Tambah project cards lainnya -->
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 group-hover:text-blue-600 transition-colors">Website Pre Order</h3>
+                    <p class="text-gray-600 mb-4">Website manajemen pre-order admin dan user untuk pre-order hijab</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-400">2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div class="relative overflow-hidden">
+                    <img src="{{asset('assets/siperum.png')}}" alt="Project" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end">
+                        <div class="p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="flex space-x-2">
+                                <span class="bg-red-500/80 text-xs px-2 py-1 rounded">Laravel</span>
+                                <span class="bg-blue-500/80 text-xs px-2 py-1 rounded">PostgreSQL</span>
+                                <span class="bg-cyan-500/80 text-xs px-2 py-1 rounded">Tailwind</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 group-hover:text-blue-600 transition-colors">Website SIPERUM</h3>
+                    <p class="text-gray-600 mb-4">Website sistem pendaftaran rekomendasi site plan perumahan kabupaten pemalang</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-400">2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div class="relative overflow-hidden">
+                    <img src="{{asset('assets/rsfdms.png')}}" alt="Project" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end">
+                        <div class="p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="flex space-x-2">
+                                <span class="bg-red-500/80 text-xs px-2 py-1 rounded">Laravel</span>
+                                <span class="bg-slate-500/80 text-xs px-2 py-1 rounded">Alpine JS</span>
+                                <span class="bg-cyan-500/80 text-xs px-2 py-1 rounded">Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 group-hover:text-blue-600 transition-colors">Data Management System</h3>
+                    <p class="text-gray-600 mb-4">Website untuk menginput dan memfilter data pelanggan</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-400">2025</span>
+                        
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold text-gray-800 mb-4">Mari Terhubung!</h2>
-            <p class="text-gray-600 mb-8">Saya terbuka untuk peluang dan kolaborasi baru.</p>
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Kontak Aku!</h2>
+            <p class="text-gray-600 mb-8">Hubungi saya lebih dekat!</p>
             
             <div class="flex justify-center space-x-6 mb-8">
-                <a href="#" class="text-gray-600 hover:text-blue-600 transition">
+                <a href="https://github.com/farelar" target="_blankx`" class="text-gray-600 hover:text-blue-600 transition">
                     <i class="fab fa-github text-2xl"></i> GitHub
                 </a>
-                <a href="#" class="text-gray-600 hover:text-blue-600 transition">
-                    <i class="fab fa-linkedin text-2xl"></i> LinkedIn
+                <a href="https://wa.me/6285641714601" target="_blank" class="text-gray-600 hover:text-blue-600 transition">
+                    <i class="fab fa-linkedin text-2xl"></i> WhatsApp
                 </a>
-                <a href="#" class="text-gray-600 hover:text-blue-600 transition">
+                <a href="https://www.instagram.com/farel_arrizieq/" target="_blank" class="text-gray-600 hover:text-blue-600 transition">
                     <i class="fab fa-instagram text-2xl"></i> Instagram
                 </a>
             </div>
@@ -181,7 +250,7 @@
 <script>
     document.addEventListener('alpine:init', () => {
     Alpine.data('typingAnimation', () => ({
-        texts: ['Web Developer', 'Junior Developer', 'Problem Solver', 'Tech Lover'],
+        texts: ['Web Developer', 'Junior Web Developer', 'Problem Solver', 'Tech Lover'],
         currentText: '',
         textIndex: 0,
         charIndex: 0,
@@ -221,4 +290,4 @@
         }
     }))
 });
-</script>
+</script>`

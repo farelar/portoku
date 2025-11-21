@@ -20,10 +20,10 @@
         </div>
         
         <p class="text-gray-400">
-            &copy; {{ date('Y') }} [Nama Kamu]. All rights reserved.
+            &copy; {{ date('Y') }} Farel Ar-Rizieq All rights reserved.
         </p>
         <p class="text-gray-500 text-sm mt-2">
-            Dibuat dengan ❤️ menggunakan Laravel & Livewire
+            Do or Do Not, There is No Try.
         </p>
     </div>
 </footer>
